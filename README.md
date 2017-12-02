@@ -15,7 +15,7 @@ Using [npm](https://www.npmjs.com/):
     import { Menu } from 'blacktbox-menu'
 
     // using CommonJS modules
-
+    var Menu = require('blacktbox-menu').Menu
 
 # Issue
 
