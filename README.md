@@ -10,14 +10,20 @@ Using [npm](https://www.npmjs.com/):
 
 **Note:** The package is only create a menu list and work with callback function. To develop a version with [React-router v4](https://github.com/ReactTraining/react-router) is on todo list.
 
-```js
-// using ES6 modules
-import { Menu } from 'blacktbox-menu'
+    ```
+    // using ES6 modules
+    import { Menu } from 'blacktbox-menu'
 
-// using CommonJS modules
-var Menu = require('blacktbox-menu').Menu
-```
+    // using CommonJS modules
+    var Menu = require('blacktbox-menu').Menu
+    ```
 
-## Issues
+# Issue
 
-If you find a bug, please file an issue on [issue tracker on GitHub](https://github.com/BlackToolBoxLaboratory/blacktbox-menu/issues).
+There will be grateful to be given advices. 
+
+Please file the [issue](https://github.com/BlackToolBoxLaboratory/blacktbox-menu/issues), if you have any idea to enhance it.  
+
+# Homepage
+
+You can see the document website [on-line](https://blacktoolboxlaboratory.github.io/).                                 
