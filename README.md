@@ -10,13 +10,12 @@ Using [npm](https://www.npmjs.com/):
 
 **Note:** The package is only create a menu list and work with callback function. To develop a version with [React-router v4](https://github.com/ReactTraining/react-router) is on todo list.
 
-    ```
+
     // using ES6 modules
     import { Menu } from 'blacktbox-menu'
 
     // using CommonJS modules
-    var Menu = require('blacktbox-menu').Menu
-    ```
+
 
 # Issue
 
