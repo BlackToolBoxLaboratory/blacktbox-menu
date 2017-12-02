@@ -1,29 +1,23 @@
-# README #
+# blacktbox-menu
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Create menu list for [React](https://facebook.github.io/react).
 
-### What is this repository for? ###
+## Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Using [npm](https://www.npmjs.com/):
 
-### How do I get set up? ###
+    $ npm install --save blacktbox-menu
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+** Note: ** The package is only create a menu list and work with callback function. To develop a version with [React-router v4](https://github.com/ReactTraining/react-router) is on todo list.
 
-### Contribution guidelines ###
+```js
+// using ES6 modules
+import { Menu } from 'blacktbox-menu'
 
-* Writing tests
-* Code review
-* Other guidelines
+// using CommonJS modules
+var Menu = require('blacktbox-menu').Menu
+```
 
-### Who do I talk to? ###
+## Issues
 
-* Repo owner or admin
-* Other community or team contact
+If you find a bug, please file an issue on [issue tracker on GitHub](https://github.com/ReactTraining/react-router/issues).
