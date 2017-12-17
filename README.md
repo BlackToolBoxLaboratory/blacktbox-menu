@@ -2,26 +2,25 @@
 
 Create menu list for [React](https://facebook.github.io/react).
 
-## Installation
+# Installation
 
-Using [npm](https://www.npmjs.com/):
+Using with [npm](https://www.npmjs.com/):
 
     $ npm install --save blacktbox-menu
-
-**Note:** The package is only create a menu list and work with callback function. To develop a version with [React-router v4](https://github.com/ReactTraining/react-router) is on todo list.
-
-
+                               
     // using ES6 modules
-    import { Menu } from 'blacktbox-menu'
+    import Menu from 'blacktbox-menu'
 
     // using CommonJS modules
-    var Menu = require('blacktbox-menu').Menu
+    var Menu = require('blacktbox-menu')
+
+# Using
 
 # Issue
 
-There will be grateful to be given advices. 
+Feel free to see around the codebase and share your experience with us. We will be grateful to be given advices. 
 
-Please file the [issue](https://github.com/BlackToolBoxLaboratory/blacktbox-menu/issues), if you have any idea to enhance it.  
+Please file [issue](https://github.com/BlackToolBoxLaboratory/blacktbox-demo/issues), if you have any issue or idea.  
 
 # Homepage
 

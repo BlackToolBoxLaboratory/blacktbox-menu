@@ -1,0 +1,66 @@
+{
+    "name": "blacktbox-menu",
+    "version": "0.1.0",
+    "description": "Menu list for react",
+    "keywords": [
+        "BTBLibrary",
+        "blacktbox-menu",
+        "react",
+        "menu"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Van Noel",
+        "email": "vannoel0628@gmail.com"
+    },
+    "homepage": "",
+    "bugs": {
+        "url": "",
+        "email": "vannoel0628@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BlackToolBoxLaboratory/blacktbox-menu.git"
+    },
+    "files": [
+        "lib",
+        "es",
+        "umd"
+    ],
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "jsnext:main": "es/index.js",
+    "scripts": {
+        "cleanModules": "rimraf node_modules",
+        "cleanDir": "rimraf lib dist es",
+        "build": "node ./script/build.js",
+        "prepare": "npm run cleanDir && npm run build",
+        "backup": "gulp backup"
+    },
+    "peerDependencies": {
+        "react": ">=15"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-remove-prop-types": "^0.4.10",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "cross-env": "^5.1.1",
+        "gulp": "^3.9.1",
+        "rimraf": "^2.6.2",
+        "rollup": "^0.52.0",
+        "rollup-plugin-babel": "^3.0.2",
+        "rollup-plugin-commonjs": "^8.2.6",
+        "rollup-plugin-node-resolve": "^3.0.0",
+        "rollup-plugin-replace": "^2.0.0",
+        "rollup-plugin-uglify": "^2.0.1",
+        "uglify-es": "^3.2.1"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.1.0",
+        "react-dom": "^16.1.0"
+    }
+}
