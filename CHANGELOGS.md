@@ -1,3 +1,9 @@
+## v0.3.1
+
+> Jan. 28, 2018
+
+- **issue**: Include css file.
+
 ## v0.3.0
 
 > Jan. 28, 2018

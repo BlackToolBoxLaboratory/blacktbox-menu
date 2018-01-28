@@ -1,6 +1,6 @@
 {
     "name": "blacktbox-menu",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Menu list for react",
     "keywords": [
         "BTBLibrary",
@@ -25,7 +25,8 @@
     "files": [
         "lib",
         "es",
-        "umd"
+        "umd",
+        "css"
     ],
     "main": "lib/index.js",
     "module": "es/index.js",
