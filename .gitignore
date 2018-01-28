@@ -3,3 +3,5 @@
 /module
 /es
 /umd
+/css/*.css
+/css/*.scss
