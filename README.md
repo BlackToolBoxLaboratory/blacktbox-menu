@@ -1,6 +1,6 @@
 # blacktbox-menu
 
-Create menu list for [React](https://facebook.github.io/react).
+Create menu with [React](https://facebook.github.io/react).
 
 # Installation
 
@@ -14,13 +14,11 @@ Using with [NPM](https://www.npmjs.com/):
     // using CommonJS modules
     var Menu = require('blacktbox-menu');
 
-# Using
-
 # Issue
 
 Feel free to see around the codebase and share your experience with us. We will be grateful to be given advices. 
 
-Please file [issue](https://github.com/BlackToolBoxLaboratory/blacktbox-demo/issues), if you have any issue or idea.
+Please file [issue](https://github.com/BlackToolBoxLaboratory/blacktbox-menu/issues), if you have any issue or idea.
 
 # Homepage
 
