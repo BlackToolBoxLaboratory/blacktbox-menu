@@ -1,16 +1,19 @@
 .btb-menu {
+  @transition_menu_properties: height .5s ease 0s;
+  @transition_submenu_properties: height .5s ease 0s, opacity .5s ease 0s;
   @transition_item_properties: border .5s ease 0s, background-color .5s ease 0s;
   @transition_collapse_properties: transform .5s ease 0s;
-  @transition_submenu_properties: height .5s ease 0s, opacity .5s ease 0s;
   @text-line-height: 30px;
   @collapse-arrow-size: 20px;
-  -webkit-transition: @transition_submenu_properties;
-      -moz-transition: @transition_submenu_properties;
-        -o-transition: @transition_submenu_properties;
-            transition: @transition_submenu_properties;
-  position:relative;
   overflow:hidden;
   color: #000;
+  .menu-content {
+    -webkit-transition: @transition_menu_properties;
+       -moz-transition: @transition_menu_properties;
+         -o-transition: @transition_menu_properties;
+            transition: @transition_menu_properties;
+    position: relative;
+  }
   .menu-layer {
     margin:0;
     padding:0;
