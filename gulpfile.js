@@ -6,17 +6,13 @@ var cleanCss = require('gulp-clean-css');
 
 const path_backup = "../codebase/blacktbox-menu/";
 
-gulp.task("copy2codebase", function() {  
-  /* module */
+gulp.task("copy2codebase", function(done) {
   gulp.src(["module/*"])
     .pipe(gulp.dest(path_backup + "module/"));
-  /* less */
   gulp.src(["css/*.less"])
     .pipe(gulp.dest(path_backup + "css/"));
-  /* script */
   gulp.src(["script/*"])
     .pipe(gulp.dest(path_backup + "script/"));
-  /* others */
   gulp.src(["module/.babelrc"])
     .pipe(gulp.dest(path_backup + "module/"));        
   gulp.src([
@@ -29,24 +25,23 @@ gulp.task("copy2codebase", function() {
       "gulpfile.js"                  
     ])
     .pipe(gulp.dest(path_backup));
+  done();
 });
 
-gulp.task("lessTranslation", function(){
-  /* less to css */
+gulp.task("lessTranslation", function(done){
   gulp.src(["css/*.less"])
     .pipe(less())
     .pipe(gulp.dest("./css/"));
-  /* less to scss */
   gulp.src(["css/*.less"])
     .pipe(less2scss())
     .pipe(gulp.dest("./css/"));
-  /* less to css-min */
   gulp.src(["css/*.less"])
     .pipe(less())
     .pipe(concat('blacktbox-menu.min.css'))
     .pipe(cleanCss())
     .pipe(gulp.dest("./css/"));
+  done();
 });
 
-gulp.task("backup", ["copy2codebase"]);
-gulp.task("cssBuildup", ["lessTranslation"]);
+gulp.task("backup", gulp.series("copy2codebase"));
+gulp.task("cssBuildup", gulp.series("lessTranslation"));

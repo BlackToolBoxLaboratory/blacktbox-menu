@@ -1,3 +1,17 @@
+## v1.1.1
+
+> Jun. 9, 2018
+
+- **Minor**: Update library
+- **issue**: Fix style object clone issue
+
+
+## v1.0.0
+
+> May. 26, 2018
+
+- **major**: formal release
+
 ## v0.5.1
 
 > Feb. 10, 2018
@@ -12,13 +26,6 @@
 > Jan. 28, 2018
 
 - **issue**: Include css file.
-
-## v0.3.0
-
-> Jan. 28, 2018
-
-- **Minor**: Beta version with adding basic function.
-- **Minor**: Beta version with adding feature of collapse.
 
 ## v0.1.0
 
