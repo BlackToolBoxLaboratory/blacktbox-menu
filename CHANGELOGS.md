@@ -1,10 +1,15 @@
 ## v1.1.1
 
-> Jun. 9, 2018
+> Jun. 10, 2018
 
 - **Minor**: Update library
-- **issue**: Fix style object clone issue
+- **issue**: Modify collapse menu by calculate item-content's height, beside default of item-content's height is 30px
 
+## v1.0.1
+
+> Jun. 9, 2018
+
+- **issue**: Fix style object clone issue
 
 ## v1.0.0
 
