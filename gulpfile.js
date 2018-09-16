@@ -14,7 +14,9 @@ gulp.task("copy2codebase", function(done) {
   gulp.src(["script/*"])
     .pipe(gulp.dest(path_backup + "script/"));
   gulp.src(["module/.babelrc"])
-    .pipe(gulp.dest(path_backup + "module/"));        
+    .pipe(gulp.dest(path_backup + "module/"));
+  gulp.src(["module/.eslintrc.js"])
+    .pipe(gulp.dest(path_backup + "module/"));     
   gulp.src([
       "LICENSE",
       "README.md",  
