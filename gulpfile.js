@@ -12,11 +12,7 @@ gulp.task("copy2codebase", function(done) {
   gulp.src(["css/*.less"])
     .pipe(gulp.dest(path_backup + "css/"));
   gulp.src(["script/*"])
-    .pipe(gulp.dest(path_backup + "script/"));
-  gulp.src(["module/.babelrc"])
-    .pipe(gulp.dest(path_backup + "module/"));
-  gulp.src(["module/.eslintrc.js"])
-    .pipe(gulp.dest(path_backup + "module/"));     
+    .pipe(gulp.dest(path_backup + "script/")); 
   gulp.src([
       "LICENSE",
       "README.md",  
@@ -24,7 +20,10 @@ gulp.task("copy2codebase", function(done) {
       "rollup.config.js",
       "package.json",
       "package-lock.json",
-      "gulpfile.js"                  
+      "gulpfile.js",
+      ".eslintrc.js",
+      ".babelrc",
+      "jest.config.js"
     ])
     .pipe(gulp.dest(path_backup));
   done();

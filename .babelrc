@@ -1,0 +1,38 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
+  "env": {
+    "commonjs": {
+      "presets": ["env"]
+    },
+    "es": {
+      "presets": [
+        [ "env", 
+          {
+            "modules": false
+          }
+        ]
+      ]  
+    },
+    "umd": {
+      "presets": [
+        [ "env", 
+          {
+            "modules": false
+          }
+        ]
+      ],
+      "plugins": [
+        "external-helpers",
+        "transform-react-remove-prop-types"
+      ]  
+    },
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  }
+}
