@@ -13,6 +13,8 @@ gulp.task("copy2codebase", function(done) {
     .pipe(gulp.dest(path_backup + "css/"));
   gulp.src(["script/*"])
     .pipe(gulp.dest(path_backup + "script/")); 
+  gulp.src(["__tests__/*"])
+    .pipe(gulp.dest(path_backup + "__tests__/")); 
   gulp.src([
       "LICENSE",
       "README.md",  
