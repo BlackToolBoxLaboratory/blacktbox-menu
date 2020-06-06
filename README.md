@@ -1,4 +1,4 @@
-# [Deprecated]: It will be refactored to [react-list](https://github.com/BlackToolBoxLaboratory/react-list) as a new package.
+# [Deprecated] It will be refactored to [react-list](https://github.com/BlackToolBoxLaboratory/react-list) as a new package.
 
 # blacktbox-menu
 
